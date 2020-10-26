@@ -1,0 +1,452 @@
+.dude {
+  background-color: black;
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    font-size: 3em;
+    margin-top: -0.0001em;
+  }
+
+  button {
+    width: 20%;
+    left: 40%;
+    position: relative;
+    margin-top: 50px;
+    align: center;
+  }
+
+  .navbar_light {
+    background-color: #ebff87;
+    color: #C8C6D7;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 99.75%;
+    height: 3em;
+    padding: 1em;
+    margin-top: -20px;
+    margin-left: -20px;
+    z-index: 1;
+  }
+
+  .navbar_dark {
+    background-color: #140078;
+    color: #373928;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 99.75%;
+    height: 3em;
+    padding: 1em;
+    margin-top: -20px;
+    margin-left: -20px;
+    z-index: 1;
+  }
+
+  .links {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 0px;
+    float: right;
+    width: 20em;
+    margin-right: -2.1em;
+  }
+
+  .button_light {
+    margin-top: 1em;
+    margin-right: 1em;
+    font: bold 1.6em monospace;
+    background-color: #36f7cd;
+    padding: 0.25em 0.75em 0.25em 0.75em;
+    border-top: 4px solid #00d138;
+    border-right: 4px solid #36ff3c;
+    border-bottom: 4px solid #36ff3c;
+    border-left: 4px solid #00d138;
+  }
+
+  .button_dark {
+    margin-top: 1em;
+    margin-right: 1em;
+    font: bold 1.6em monospace;
+    background-color: #c90832;
+    padding: 0.25em 0.75em 0.25em 0.75em;
+    border-top: 4px solid #ff2ec7;
+    border-right: 4px solid #c900c3;
+    border-bottom: 4px solid #c900c3;
+    border-left: 4px solid #ff2ec7;
+  }
+
+  .button_light:hover {
+    background-color: #19a687;
+    border-top: 4px solid #36ff3c;
+    border-right: 4px solid #00d138;
+    border-bottom: 4px solid #00d138;
+    border-left: 4px solid #36ff3c;
+  }
+
+  .button_dark:hover {
+    background-color: #e65978;
+    border-top: 4px solid #c900c3;
+    border-right: 4px solid #ff2ec7;
+    border-bottom: 4px solid #ff2ec7;
+    border-left: 4px solid #c900c3;
+  }
+
+  a,
+  h1,
+  h2,
+  button {
+    color: #b01e19;
+    text-decoration: none;
+  }
+
+  .dark {
+    color: #ABFEFE;
+    text-decoration: none;
+  }
+
+  .character_light {
+    width: 45%;
+    margin: 1em;
+    height: 25%;
+    background-color: #d767f0;
+  }
+  
+  .character_dark {
+    width: 45%;
+    margin: 1em;
+    height: 25%;
+    background-color: #66EE2A;
+  }
+
+  .char_img_light {
+    float: right;
+    width: 25%;
+    margin: 1em;
+    border: 0.5em groove #b01e19;
+  }
+  
+  .char_img_dark {
+    float: right;
+    width: 25%;
+    margin: 1em;
+    border: 0.5em groove #ABFEFE;
+  }
+  
+  .name_light {
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+    color: #b01e19;
+    font-size: 2.5em;
+  }
+  
+  .name_dark {
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+    color: #A9FEFE;
+    font-size: 2.5em;
+  }
+
+  .info_p_light {
+    margin-top: -3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    border: 2px dashed grey;
+    font-size: 1.25em;
+  }
+  
+  .info_p_dark {
+    margin-top: -3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    border: 2px dashed #DEDEDE;
+    font-size: 1.25em;
+  }
+
+  .one {
+    float: left;
+    margin-left: 2.5%;
+  }
+
+  .two {
+    float: right;
+    margin-right: 2%;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    margin-left: 0.5em;
+  }
+
+  .main-img_light {
+    width: 95%;
+    margin-top: 2.5em;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border: 0.5em solid #5beb5e;
+  }
+
+  .main-img_dark {
+    width: 95%;
+    margin-top: 2.5em;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border: 0.5em solid #E5FEE6;
+  }
+
+  .home-info {
+    margin: 2%;
+    font-size: 1.1em;
+  }
+
+  .home_light {
+    width: 45%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: auto;
+    background-color: #d767f0;
+  }
+
+  .home_dark {
+    width: 45%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: auto;
+    background-color: #66EE2A;
+  }
+
+  .dark2 {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  button {
+    width: 20%;
+    left: 40%;
+    position: relative;
+    margin-top: 50px;
+    align: center;
+  }
+  
+  h1 {
+    font-size: 3vw;
+    margin-top: -0.0001vw;
+  }
+
+  button {
+    position: relative;
+    top: 3vw;
+  }
+
+  .navbar_light {
+    background-color: #ebff87;
+    color: #C8C6D7;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 99.75%;
+    height: 5vw;
+    padding: 1vw;
+    margin-top: -1.5vw;
+    margin-left: -1.5vw;
+    z-index: 1;
+  }
+
+  .navbar_dark {
+    background-color: #140078;
+    color: #373928;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 99.75%;
+    height: 5vw;
+    padding: 1vw;
+    margin-top: -1.5vw;
+    margin-left: -1.5vw;
+    z-index: 1;
+  }
+
+  .links {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 0px;
+    float: right;
+    width: 50vw;
+    margin-right: -2.1em;
+  }
+
+  .button_light {
+    margin-top: 1vw;
+    margin-right: 1vw;
+    font: bold 1.6vw monospace;
+    background-color: #36f7cd;
+    padding: 0.25em 0.75em 0.25em 0.75em;
+    border-top: 4px solid #00d138;
+    border-right: 4px solid #36ff3c;
+    border-bottom: 4px solid #36ff3c;
+    border-left: 4px solid #00d138;
+  }
+
+  .button_dark {
+    margin-top: 1vw;
+    margin-right: 1vw;
+    font: bold 1.6vw monospace;
+    background-color: #c90832;
+    padding: 0.25em 0.75em 0.25em 0.75em;
+    border-top: 4px solid #ff2ec7;
+    border-right: 4px solid #c900c3;
+    border-bottom: 4px solid #c900c3;
+    border-left: 4px solid #ff2ec7;
+  }
+
+  .button_light:hover {
+    background-color: #19a687;
+    border-top: 4px solid #36ff3c;
+    border-right: 4px solid #00d138;
+    border-bottom: 4px solid #00d138;
+    border-left: 4px solid #36ff3c;
+  }
+
+  .button_dark:hover {
+    background-color: #e65978;
+    border-top: 4px solid #c900c3;
+    border-right: 4px solid #ff2ec7;
+    border-bottom: 4px solid #ff2ec7;
+    border-left: 4px solid #c900c3;
+  }
+
+  a,
+  h1,
+  h2,
+  button {
+    color: #b01e19;
+    text-decoration: none;
+  }
+
+  .dark {
+    color: #ABFEFE;
+    text-decoration: none;
+  }
+
+  .character_light {
+    margin-top: 4em;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 4em;
+    height: auto;
+    background-color: #d767f0;
+  }
+  
+  .character_dark {
+    margin-top: 4em;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 4em;
+    height: auto;
+    background-color: #66EE2A;
+  }
+  
+  .char_img_light {
+    float: right;
+    width: 25%;
+    margin: 1em;
+    border: 0.5em groove #b01e19;
+  }
+  
+  .char_img_dark {
+    float: right;
+    width: 25%;
+    margin: 1em;
+    border: 0.5em groove #ABFEFE;
+  }
+
+  .name_light {
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+    color: #b01e19;
+    font-size: 2.5em;
+  }
+  
+  .name_dark {
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+    color: #A9FEFE;
+    font-size: 2.5em;
+  }
+
+  .info_p_light {
+    margin-top: -3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    border: 2px dashed grey;
+    font-size: 1.25em;
+  }
+  
+  .info_p_dark {
+    margin-top: -3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    border: 2px dashed #DEDEDE;
+    font-size: 1.25em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    margin-left: 0.5em;
+  }
+
+  .main-img_light {
+    width: 95%;
+    margin-top: 2.5em;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border: 0.5em solid #5beb5e;
+  }
+
+  .main-img_dark {
+    width: 95%;
+    margin-top: 2.5em;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border: 0.5em solid #E5FEE6;
+  }
+
+  .home-info {
+    margin: 2%;
+    font-size: 1.1em;
+  }
+
+  .home_light {
+    width: 95%;
+    margin: 2.5%;
+    height: auto;
+    background-color: #d767f0;
+    padding-bottom: 0.75%;
+  }
+
+  .home_dark {
+    width: 95%;
+    margin: 2.5%;
+    height: auto;
+    background-color: #66EE2A;
+    padding-bottom: 0.75%;
+  }
+
+  .dark2 {
+    color: white;
+  }
+}
